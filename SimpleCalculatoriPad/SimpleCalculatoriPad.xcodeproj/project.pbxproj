@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3249D7C21BD1354F004343B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3249D7C11BD1354F004343B7 /* main.m */; };
+		3249D7C51BD1354F004343B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3249D7C41BD1354F004343B7 /* AppDelegate.m */; };
+		3249D7C81BD1354F004343B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3249D7C71BD1354F004343B7 /* ViewController.m */; };
+		3249D7CB1BD1354F004343B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3249D7C91BD1354F004343B7 /* Main.storyboard */; };
+		3249D7CD1BD1354F004343B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3249D7CC1BD1354F004343B7 /* Assets.xcassets */; };
+		3249D7D01BD1354F004343B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3249D7CE1BD1354F004343B7 /* LaunchScreen.storyboard */; };
+		3249D7DB1BD1354F004343B7 /* SimpleCalculatoriPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3249D7DA1BD1354F004343B7 /* SimpleCalculatoriPadTests.m */; };
+		3249D7E61BD1354F004343B7 /* SimpleCalculatoriPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3249D7E51BD1354F004343B7 /* SimpleCalculatoriPadUITests.m */; };
+		3249D7F71BD13646004343B7 /* Calculadora.m in Sources */ = {isa = PBXBuildFile; fileRef = 3249D7F51BD13646004343B7 /* Calculadora.m */; settings = {ASSET_TAGS = (); }; };
+		3249D7F81BD13646004343B7 /* Calculadora.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3249D7F61BD13646004343B7 /* Calculadora.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3249D7D71BD1354F004343B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3249D7B51BD1354F004343B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3249D7BC1BD1354F004343B7;
+			remoteInfo = SimpleCalculatoriPad;
+		};
+		3249D7E21BD1354F004343B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3249D7B51BD1354F004343B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3249D7BC1BD1354F004343B7;
+			remoteInfo = SimpleCalculatoriPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3249D7BD1BD1354F004343B7 /* SimpleCalculatoriPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalculatoriPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3249D7C11BD1354F004343B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3249D7C31BD1354F004343B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3249D7C41BD1354F004343B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3249D7C61BD1354F004343B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3249D7C71BD1354F004343B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3249D7CA1BD1354F004343B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3249D7CC1BD1354F004343B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3249D7CF1BD1354F004343B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3249D7D11BD1354F004343B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3249D7D61BD1354F004343B7 /* SimpleCalculatoriPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalculatoriPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3249D7DA1BD1354F004343B7 /* SimpleCalculatoriPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleCalculatoriPadTests.m; sourceTree = "<group>"; };
+		3249D7DC1BD1354F004343B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3249D7E11BD1354F004343B7 /* SimpleCalculatoriPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalculatoriPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3249D7E51BD1354F004343B7 /* SimpleCalculatoriPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleCalculatoriPadUITests.m; sourceTree = "<group>"; };
+		3249D7E71BD1354F004343B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3249D7F41BD13646004343B7 /* Calculadora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculadora.h; sourceTree = "<group>"; };
+		3249D7F51BD13646004343B7 /* Calculadora.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculadora.m; sourceTree = "<group>"; };
+		3249D7F61BD13646004343B7 /* Calculadora.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Calculadora.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3249D7BA1BD1354F004343B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3249D7D31BD1354F004343B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3249D7DE1BD1354F004343B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3249D7B41BD1354F004343B7 = {
+			isa = PBXGroup;
+			children = (
+				3249D7BF1BD1354F004343B7 /* SimpleCalculatoriPad */,
+				3249D7D91BD1354F004343B7 /* SimpleCalculatoriPadTests */,
+				3249D7E41BD1354F004343B7 /* SimpleCalculatoriPadUITests */,
+				3249D7BE1BD1354F004343B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3249D7BE1BD1354F004343B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3249D7BD1BD1354F004343B7 /* SimpleCalculatoriPad.app */,
+				3249D7D61BD1354F004343B7 /* SimpleCalculatoriPadTests.xctest */,
+				3249D7E11BD1354F004343B7 /* SimpleCalculatoriPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3249D7BF1BD1354F004343B7 /* SimpleCalculatoriPad */ = {
+			isa = PBXGroup;
+			children = (
+				3249D7F31BD13646004343B7 /* Calculator */,
+				3249D7C31BD1354F004343B7 /* AppDelegate.h */,
+				3249D7C41BD1354F004343B7 /* AppDelegate.m */,
+				3249D7C61BD1354F004343B7 /* ViewController.h */,
+				3249D7C71BD1354F004343B7 /* ViewController.m */,
+				3249D7C91BD1354F004343B7 /* Main.storyboard */,
+				3249D7CC1BD1354F004343B7 /* Assets.xcassets */,
+				3249D7CE1BD1354F004343B7 /* LaunchScreen.storyboard */,
+				3249D7D11BD1354F004343B7 /* Info.plist */,
+				3249D7C01BD1354F004343B7 /* Supporting Files */,
+			);
+			path = SimpleCalculatoriPad;
+			sourceTree = "<group>";
+		};
+		3249D7C01BD1354F004343B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3249D7C11BD1354F004343B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3249D7D91BD1354F004343B7 /* SimpleCalculatoriPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				3249D7DA1BD1354F004343B7 /* SimpleCalculatoriPadTests.m */,
+				3249D7DC1BD1354F004343B7 /* Info.plist */,
+			);
+			path = SimpleCalculatoriPadTests;
+			sourceTree = "<group>";
+		};
+		3249D7E41BD1354F004343B7 /* SimpleCalculatoriPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3249D7E51BD1354F004343B7 /* SimpleCalculatoriPadUITests.m */,
+				3249D7E71BD1354F004343B7 /* Info.plist */,
+			);
+			path = SimpleCalculatoriPadUITests;
+			sourceTree = "<group>";
+		};
+		3249D7F31BD13646004343B7 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				3249D7F41BD13646004343B7 /* Calculadora.h */,
+				3249D7F51BD13646004343B7 /* Calculadora.m */,
+				3249D7F61BD13646004343B7 /* Calculadora.xib */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3249D7BC1BD1354F004343B7 /* SimpleCalculatoriPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3249D7EA1BD1354F004343B7 /* Build configuration list for PBXNativeTarget "SimpleCalculatoriPad" */;
+			buildPhases = (
+				3249D7B91BD1354F004343B7 /* Sources */,
+				3249D7BA1BD1354F004343B7 /* Frameworks */,
+				3249D7BB1BD1354F004343B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCalculatoriPad;
+			productName = SimpleCalculatoriPad;
+			productReference = 3249D7BD1BD1354F004343B7 /* SimpleCalculatoriPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3249D7D51BD1354F004343B7 /* SimpleCalculatoriPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3249D7ED1BD1354F004343B7 /* Build configuration list for PBXNativeTarget "SimpleCalculatoriPadTests" */;
+			buildPhases = (
+				3249D7D21BD1354F004343B7 /* Sources */,
+				3249D7D31BD1354F004343B7 /* Frameworks */,
+				3249D7D41BD1354F004343B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3249D7D81BD1354F004343B7 /* PBXTargetDependency */,
+			);
+			name = SimpleCalculatoriPadTests;
+			productName = SimpleCalculatoriPadTests;
+			productReference = 3249D7D61BD1354F004343B7 /* SimpleCalculatoriPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3249D7E01BD1354F004343B7 /* SimpleCalculatoriPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3249D7F01BD1354F004343B7 /* Build configuration list for PBXNativeTarget "SimpleCalculatoriPadUITests" */;
+			buildPhases = (
+				3249D7DD1BD1354F004343B7 /* Sources */,
+				3249D7DE1BD1354F004343B7 /* Frameworks */,
+				3249D7DF1BD1354F004343B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3249D7E31BD1354F004343B7 /* PBXTargetDependency */,
+			);
+			name = SimpleCalculatoriPadUITests;
+			productName = SimpleCalculatoriPadUITests;
+			productReference = 3249D7E11BD1354F004343B7 /* SimpleCalculatoriPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3249D7B51BD1354F004343B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "RMN Development Mobiliy";
+				TargetAttributes = {
+					3249D7BC1BD1354F004343B7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					3249D7D51BD1354F004343B7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3249D7BC1BD1354F004343B7;
+					};
+					3249D7E01BD1354F004343B7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3249D7BC1BD1354F004343B7;
+					};
+				};
+			};
+			buildConfigurationList = 3249D7B81BD1354F004343B7 /* Build configuration list for PBXProject "SimpleCalculatoriPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3249D7B41BD1354F004343B7;
+			productRefGroup = 3249D7BE1BD1354F004343B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3249D7BC1BD1354F004343B7 /* SimpleCalculatoriPad */,
+				3249D7D51BD1354F004343B7 /* SimpleCalculatoriPadTests */,
+				3249D7E01BD1354F004343B7 /* SimpleCalculatoriPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3249D7BB1BD1354F004343B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3249D7D01BD1354F004343B7 /* LaunchScreen.storyboard in Resources */,
+				3249D7CD1BD1354F004343B7 /* Assets.xcassets in Resources */,
+				3249D7CB1BD1354F004343B7 /* Main.storyboard in Resources */,
+				3249D7F81BD13646004343B7 /* Calculadora.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3249D7D41BD1354F004343B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3249D7DF1BD1354F004343B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3249D7B91BD1354F004343B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3249D7C81BD1354F004343B7 /* ViewController.m in Sources */,
+				3249D7C51BD1354F004343B7 /* AppDelegate.m in Sources */,
+				3249D7C21BD1354F004343B7 /* main.m in Sources */,
+				3249D7F71BD13646004343B7 /* Calculadora.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3249D7D21BD1354F004343B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3249D7DB1BD1354F004343B7 /* SimpleCalculatoriPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3249D7DD1BD1354F004343B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3249D7E61BD1354F004343B7 /* SimpleCalculatoriPadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3249D7D81BD1354F004343B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3249D7BC1BD1354F004343B7 /* SimpleCalculatoriPad */;
+			targetProxy = 3249D7D71BD1354F004343B7 /* PBXContainerItemProxy */;
+		};
+		3249D7E31BD1354F004343B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3249D7BC1BD1354F004343B7 /* SimpleCalculatoriPad */;
+			targetProxy = 3249D7E21BD1354F004343B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3249D7C91BD1354F004343B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3249D7CA1BD1354F004343B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3249D7CE1BD1354F004343B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3249D7CF1BD1354F004343B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3249D7E81BD1354F004343B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3249D7E91BD1354F004343B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3249D7EB1BD1354F004343B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleCalculatoriPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmndevmobility.SimpleCalculatoriPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3249D7EC1BD1354F004343B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleCalculatoriPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmndevmobility.SimpleCalculatoriPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3249D7EE1BD1354F004343B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleCalculatoriPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmndevmobility.SimpleCalculatoriPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCalculatoriPad.app/SimpleCalculatoriPad";
+			};
+			name = Debug;
+		};
+		3249D7EF1BD1354F004343B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleCalculatoriPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmndevmobility.SimpleCalculatoriPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCalculatoriPad.app/SimpleCalculatoriPad";
+			};
+			name = Release;
+		};
+		3249D7F11BD1354F004343B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleCalculatoriPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmndevmobility.SimpleCalculatoriPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleCalculatoriPad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3249D7F21BD1354F004343B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleCalculatoriPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmndevmobility.SimpleCalculatoriPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleCalculatoriPad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3249D7B81BD1354F004343B7 /* Build configuration list for PBXProject "SimpleCalculatoriPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3249D7E81BD1354F004343B7 /* Debug */,
+				3249D7E91BD1354F004343B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3249D7EA1BD1354F004343B7 /* Build configuration list for PBXNativeTarget "SimpleCalculatoriPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3249D7EB1BD1354F004343B7 /* Debug */,
+				3249D7EC1BD1354F004343B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3249D7ED1BD1354F004343B7 /* Build configuration list for PBXNativeTarget "SimpleCalculatoriPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3249D7EE1BD1354F004343B7 /* Debug */,
+				3249D7EF1BD1354F004343B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3249D7F01BD1354F004343B7 /* Build configuration list for PBXNativeTarget "SimpleCalculatoriPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3249D7F11BD1354F004343B7 /* Debug */,
+				3249D7F21BD1354F004343B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3249D7B51BD1354F004343B7 /* Project object */;
+}
